@@ -1,0 +1,31 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Novo evento 5",
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+POST http://localhost:3333/events/963c0d8e-c7e0-4a87-981e-6bd7231c0419/attendees
+Content-Type: application/json
+
+{
+    "name": "Jessica Araujo",
+    "email": "jessica@live.com"
+}
+
+###
+GET http://localhost:3333/events/d4bb872c-dd0a-4bb0-abc9-03a7298c7390
+
+
+###
+GET http://localhost:3333/attendees/3/badge
+
+
+###
+GET  http://localhost:3333/attendees/5/check-in
+
+###
+GET  http://localhost:3333/events/d4bb872c-dd0a-4bb0-abc9-03a7298c7390/attendees?query=patrick
