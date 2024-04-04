@@ -18,7 +18,7 @@ O sistema fará scan da credencial do participante para permitir a entrada no ev
 
 - [x] O participante deve poder se inscrever em um evento;
 
-- [ ] O participante deve poder visualizar seu crachá de inscrição;
+- [x] O participante deve poder visualizar seu crachá de inscrição;
 
 - [x] O participante deve poder realizar check-in no evento.
 
@@ -31,5 +31,4 @@ O sistema fará scan da credencial do participante para permitir a entrada no ev
 - [x] O participante só pode realizar check-in em um evento uma única vez;
 
 ### REQUISITOS NÃO-FUNCIONAIS:
-- [ ] O check-in no evento será realizado através de um QRcode;
-
+- [x] O check-in no evento será realizado através de um QRcode;
