@@ -33,11 +33,3 @@ O sistema fará scan da credencial do participante para permitir a entrada no ev
 ### REQUISITOS NÃO-FUNCIONAIS:
 - [ ] O check-in no evento será realizado através de um QRcode;
 
-## ANOTAÇÕES
-MÉTODOS HTTP: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS
-GET -> RETORNO DE DADO; POST -> CRIAR ALGO (REGISTRO, USUÁRIO, CATEGORIA, PRODUTO); PUT -> ALTERAR ALGO; DELETE -> EXCLUIR INFORMAÇÃO; -> PATCH -> ALTERAR ALGUMA INFORMAÇÃO ÚNICA; HEAD E OPTIONS -> SEGURANÇA;
-CORPO DA REQUISIÇÃO (REQUEST BODY)
-PARÂMETROS DE BUSCA -> search param / query params
-PARÂMETROS DE ROTA ->  ( Route  Params ) -> Identificação de recursos (um parâmetro passado para realizar alguma ação)
-CABEÇALHOS (Headers) => contexto da requisição.
-DRIVER NATIVO / QUERY BUILDERS / ORMs (Object Relational Mapping)
